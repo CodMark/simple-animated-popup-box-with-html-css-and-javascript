@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+body {
+    background: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.frem {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.frem .popup-box {
+    width: 17rem;
+    height: 8rem;
+    background: #444444;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 20px 9px 20px #00000026;
+    opacity: 0;
+}
+.popup-box.opco{
+    opacity: 1;
+}
+
+.frem .popup-box p {
+    color: #fff;
+    font-size: 32px;
+    font-family: cursive;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.frem .popup-box span {
+    width: 24px;
+    height: 24px;
+    background: #444444;
+    position: absolute;
+    bottom: -12px;
+    border-bottom-right-radius: 7px;
+    transform: rotate(45deg);
+}
+
+.frem .btn {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: none;
+    background: #444444;
+    cursor: pointer;
+    margin-top: 19px;
+    padding: 12px;
+    outline: none;
+}
+.btn.rotat{
+    background: #007eff;
+    transform: rotate(45deg);
+}
+
+.frem .btn img {
+    width: 100%;
+}

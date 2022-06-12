@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple animated popup box with html css & javascript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="frem">
+        <div class="popup-box"><p>Simple popup</p><span></span></div>
+        <button class="btn" onclick="popup()"><img src="./plus.svg" alt="img"></button>
+    </div>
+</body>
+<script>
+    function popup() {
+        document.querySelector('.popup-box').classList.toggle('opco');
+        document.querySelector('.btn').classList.toggle('rotat');
+    }
+</script>
+</html>
